@@ -145,24 +145,37 @@ footer{
     gap: 20px;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-footer a{
+.logo{
     color: white;
     font-size: 25px;
     text-transform: uppercase;
-
+    margin: 30px;
 }
 
-footer a span{
+.logo span{
     color: #4343a4;
 }
 
+.links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+}
+
+.enlaces{
+    color: white;
+    line-height: 2;
+}
 .direccion{
   
     width: 200px;
-    
-    
+    width:300px;
 }
 .direccion iframe{
     width: 300px;
@@ -173,13 +186,310 @@ footer a span{
     margin: 30px;
     width: 300px;
     text-align: center;
+    line-height: 2;
 }
 .contactanos h3{
     color: #4343a4;
     margin: 30px;
-    text-transform: uppercase
-};
+    text-transform: uppercase;
 }
+
+.fa-solid{
+    color:#4343a4;
+}
+.titulo_recepcion{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Sense","Century Gothic",sans-serif;
+    color: #0097DB;
+    line-height: 1.3;
+    display: flex;
+    justify-content: center;
+}
+.recepcion{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Sense","Century Gothic",sans-serif;
+    color: #0097DB;
+    line-height: 1.3;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
+.recepcion1{
+    width: 300px;
+    border: 2px solid red;
+    height: 300px;
+
+}
+
+.recepcion2{
+    width: 300px;
+    border: 2px solid red;
+    height: 300px;
+    
+}
+.recepcion3{
+    width: 300px;
+    border: 2px solid red;
+    height: 300px;
+    
+}
+
+.titulo_restaurant{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Sense","Century Gothic",sans-serif;
+    color: #0097DB;
+    line-height: 1.3;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+
+.restaurant{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Sense","Century Gothic",sans-serif;
+    color: #0097DB;
+    line-height: 1.3;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 40px;
+    
+}
+
+.restaurant1{
+    width: 300px;
+    border: 2px solid red;
+    height: 300px;
+
+}
+
+.restaurant2{
+    width: 300px;
+    border: 2px solid red;
+    height: 300px;
+    
+}
+.restaurant3{
+    width: 300px;
+    border: 2px solid red;
+    height: 300px;
+    
+}
+
+
+
+
+/* habitaciones */
+
+.habitaciones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+    }
+    
+    .habitacion_general { grid-area: 1 / 1 / 3 / 2; 
+    background-image: url(../img/habitacion.webp);
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+    
+    }
+    .habitacion1 { grid-area: 1 / 2 / 2 / 3; 
+    background-image: url(../img/habitacion1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.habitacion1 p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    text-transform: uppercase;
+    height: 290px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+    .habitacion2 { grid-area: 1 / 3 / 2 / 4; 
+    
+    background-image:  url(../img/habitacion2.webp); 
+    background-position: center;
+    background-size: cover;
+}
+
+.habitacion2 p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    text-transform: uppercase;
+    height: 290px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+    .habitacion3 { grid-area: 2 / 2 / 3 / 3;
+    background-image: url(../img/habitacion3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.habitacion3 p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    text-transform: uppercase;
+    height: 290px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+    .habitacion4 { grid-area: 2 / 3 / 3 / 4; 
+    background-image: url(../img/habitacion4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.habitacion4 p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    text-transform: uppercase;
+    height: 290px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* contacto */
+
+.main_contacto{
+    padding-bottom: 20px;
+}
+
+.formulario h3{
+    text-align: center;
+    margin: 20px;
+}
+
+.contact_form{  
+  width: 700px; 
+  height: auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 95%; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #4343a4; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 95%; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #4343a4; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #4343a4; 
+  border-color: #4343a4; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 95%;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #4343a4; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 952px){
     nav ul li a{
         font-size: 16px;
@@ -217,5 +527,12 @@ footer a span{
     }
     #check:checked ~ ul{
         left:0;
+    }
+
+
+    .direccion iframe{
+        width: 300px;
+        height: 300px;
+        margin-left: 0;
     }
 }

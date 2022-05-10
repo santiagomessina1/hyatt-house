@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyatt house</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d7c9511813.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="enlace">
+                Hyatt <span>house</span>
+            </a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="#">hotel</a></li>
+                <li><a href="./habitaciones.html">Habitaciones</a></li>
+                <li><a href="#">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main_contacto">
+        <h1 class="titulo_recepcion">Contactanos</h1>
+
+        <div class="contact_form">
+
+            <div class="formulario">
+                <h3>¡Escríbenos y en breve los pondremos en contacto contigo!</h3>
+
+
+                <form>
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                            placeholder="Escribe tu nombre">
+                    </p>
+
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio"
+                            placeholder="Escribe tu Email">
+                    </p>
+
+                    <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>
+
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                            placeholder="Escribe un asunto">
+                    </p>
+
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                            placeholder="Deja aquí tu comentario..."></textarea>
+                    </p>
+
+                    <button type="submit" name="enviar_formulario" id="enviar">
+                        <p>Enviar</p>
+                    </button>
+
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>
+
+                </form>
+            </div>
+        </div>
+
+</body>
+
+</html>
+
+
+</main>
+
+
+<footer>
+    <div class="links">
+        <a href="" class="logo">hyatt <span>house</span> </a>
+        <a href="" class="enlaces">Hotel</a>
+        <a href="" class="enlaces">Habitaciones</a>
+        <a href="" class="enlaces">contactanos</a>
+
+    </div>
+
+
+    <div class="direccion">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.8988910906537!2d-96.8102438!3d32.7949401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e99371a5092bf%3A0xab7b0708b0e24038!2sHyatt%20House%20Dallas%2FUptown!5e0!3m2!1ses-419!2sar!4v1651805184330!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="contactanos">
+        <h3>contactanos</h3>
+        <p><i class="fa-solid fa-signs-post"></i> 2914 Harry Hines Blvd, Dallas, TX 75201, Estados Unidos</p>
+        <p><i class="fa-solid fa-phone"></i> +12149659990</p>
+    </div>
+</footer>
+</body>
+
+</html>
